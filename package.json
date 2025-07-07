@@ -1,7 +1,7 @@
 {
-  "name": "local-db",
+  "name": "local-db-better",
   "version": "1.0.0",
-  "description": "Local database abstraction with multiple backends - JSON, SQLite, and Memory",
+  "description": "Better local database abstraction with multiple backends - JSON, SQLite, and Memory",
   "main": "src/index.js",
   "types": "src/types/index.d.ts",
   "scripts": {
@@ -12,6 +12,10 @@
   "keywords": ["database", "storage", "sqlite", "json", "memory", "local", "persistence"],
   "author": "leoxe2",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leoxe2/local-db.git"
+  },
   "dependencies": {
     "better-sqlite3": "^9.2.2"
   },
